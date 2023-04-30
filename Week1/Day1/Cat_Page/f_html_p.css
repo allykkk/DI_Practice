@@ -1,0 +1,40 @@
+.yellow_text{
+    background-color: yellow;
+}
+
+.page_media h2{
+    text-align: center;
+}
+#cat ol{
+    list-style-type:upper-roman;
+}
+#lion_table h1{
+    width: 800px;
+}
+#lion h3{
+    border: red 1px solid;
+    color: red;
+    text-align: center;
+    width: 100%;
+}
+
+#lion_table table,th,td{
+    border: black 1px solid;
+}
+
+#lion_table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 170px;
+    padding-right: 170px;
+    /*check it out: why can not give size to the div but give to seprate tag works */
+}
+
+.page_media img{
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
